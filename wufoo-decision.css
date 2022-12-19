@@ -149,7 +149,7 @@ html {
 	font-style: normal;
 	font-weight: 800;
 	color: #505151 !important;
-	padding: 20px;
+	padding: 20px !important;
 }
 .redesigned-theme-2018 .wufoo .info h2 * {
 	font-family: 'proxima-nova-condensed';
@@ -160,6 +160,7 @@ html {
 	font-style: normal;
 	font-weight: 300;
 	color: #505151 !important;
+	padding: 20px !important;
 }
 .redesigned-theme-2018 .wufoo .info div * {
 	font-family: 'proxima-nova';
