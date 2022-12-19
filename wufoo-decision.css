@@ -73,7 +73,7 @@ html {
 }
 
 #container, html.embed {
-	background-color: #ebebeb;
+	background-color: #ebebeb !important;
 }
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select {
 	background: #ffffff url(/images/fieldbg.gif) repeat-x top;
