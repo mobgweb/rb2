@@ -71,10 +71,10 @@ html {
 	background-image: none;
 	background-color: transparent;
 }
-/*
+
 #container, html.embed {
-	background-color: transparent;
-} */
+	background-color: #ebebeb;
+}
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select {
 	background: #ffffff url(/images/fieldbg.gif) repeat-x top;
 	border: 1px solid Background color 'ffffff url(/images/fieldbg.gif) repeat-x top' is not a hex color value.#;
