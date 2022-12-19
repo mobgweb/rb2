@@ -141,6 +141,9 @@ html {
 .fixed .info {
 	border-bottom: none;
 }
+.form ul {
+    padding: 10px;
+}
 .wufoo li.section.scrollText {
 	border-color: #dedede;
 }
@@ -149,7 +152,7 @@ html {
 	font-style: normal;
 	font-weight: 800;
 	color: #505151 !important;
-	padding: 20px !important;
+	padding: 20px 0px 0px !important;
 }
 .redesigned-theme-2018 .wufoo .info h2 * {
 	font-family: 'proxima-nova-condensed';
