@@ -141,7 +141,10 @@ html {
 .fixed .info {
 	border-bottom: none;
 }
-.form ul {
+/* .form ul {
+    padding: 10px;
+} */
+.form li {
     padding: 10px;
 }
 .wufoo li.section.scrollText {
