@@ -172,7 +172,7 @@ form li {
 	font-style: normal;
 	font-weight: 300;
 	color: #505151 !important;
-	padding: 20px !important;
+	padding: 20px 0px 0px !important;
 }
 .redesigned-theme-2018 .wufoo .info div * {
 	font-family: 'proxima-nova';
