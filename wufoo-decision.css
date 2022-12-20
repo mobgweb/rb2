@@ -1,6 +1,9 @@
 .embed body {
     margin: 5px !important;
 }
+.wufoo .info div {
+padding: 5px !important;
+}
 form li.buttons {
 	display: none;
 }
