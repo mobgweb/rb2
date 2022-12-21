@@ -1,6 +1,9 @@
 .embed body {
     margin: 5px !important;
 }
+ .wufoo legend.desc{
+    text-align: center !important;
+}
 a {
     color: #005596;
     text-decoration: underline;
