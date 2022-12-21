@@ -1,6 +1,18 @@
 .embed body {
     margin: 5px !important;
 }
+a {
+    color: #005596;
+    text-decoration: underline;
+}
+a:visited {
+    color: #005596;
+    text-decoration: underline;
+}
+a:hover {
+    color: #005596;
+    text-decoration: none;
+}
 .wufoo .info div {
 padding: 5px !important;
 }
