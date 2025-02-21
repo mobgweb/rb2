@@ -1,0 +1,601 @@
+
+
+@import url("https://p.typekit.net/p.css?s=1&k=gcr5sfd&ht=tk&f=137.138.139.140.169.170.171.172.173.174.175.176.5474.5475.25136.25137.141.142.143.144.145.146.147.148.149.150.151.152.153.154.25138.25139.15498.15501.15505.15510&a=3593027&app=typekit&e=css");
+
+@font-face {
+font-family:"proxima-nova";
+src:url("https://use.typekit.net/af/e3ed45/00000000000000007735e602/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff2"),url("https://use.typekit.net/af/e3ed45/00000000000000007735e602/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff"),url("https://use.typekit.net/af/e3ed45/00000000000000007735e602/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:900;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova";
+src:url("https://use.typekit.net/af/d83550/00000000000000007735e60a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3") format("woff2"),url("https://use.typekit.net/af/d83550/00000000000000007735e60a/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3") format("woff"),url("https://use.typekit.net/af/d83550/00000000000000007735e60a/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:900;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova";
+src:url("https://use.typekit.net/af/2555e1/00000000000000007735e603/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/2555e1/00000000000000007735e603/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/2555e1/00000000000000007735e603/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova";
+src:url("https://use.typekit.net/af/4de20a/00000000000000007735e604/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/4de20a/00000000000000007735e604/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/4de20a/00000000000000007735e604/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova";
+src:url("https://use.typekit.net/af/8738d8/00000000000000007735e611/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff2"),url("https://use.typekit.net/af/8738d8/00000000000000007735e611/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff"),url("https://use.typekit.net/af/8738d8/00000000000000007735e611/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:800;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova";
+src:url("https://use.typekit.net/af/58acf5/00000000000000007735e622/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i8&v=3") format("woff2"),url("https://use.typekit.net/af/58acf5/00000000000000007735e622/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i8&v=3") format("woff"),url("https://use.typekit.net/af/58acf5/00000000000000007735e622/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i8&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:800;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova";
+src:url("https://use.typekit.net/af/154cda/00000000000000007735e601/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("woff2"),url("https://use.typekit.net/af/154cda/00000000000000007735e601/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("woff"),url("https://use.typekit.net/af/154cda/00000000000000007735e601/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:100;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova";
+src:url("https://use.typekit.net/af/7283cd/00000000000000007735e608/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3") format("woff2"),url("https://use.typekit.net/af/7283cd/00000000000000007735e608/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3") format("woff"),url("https://use.typekit.net/af/7283cd/00000000000000007735e608/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:100;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova";
+src:url("https://use.typekit.net/af/78aca8/00000000000000007735e60d/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff2"),url("https://use.typekit.net/af/78aca8/00000000000000007735e60d/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff"),url("https://use.typekit.net/af/78aca8/00000000000000007735e60d/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:600;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova";
+src:url("https://use.typekit.net/af/144da4/00000000000000007735e619/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3") format("woff2"),url("https://use.typekit.net/af/144da4/00000000000000007735e619/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3") format("woff"),url("https://use.typekit.net/af/144da4/00000000000000007735e619/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:600;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova";
+src:url("https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova";
+src:url("https://use.typekit.net/af/3322cc/00000000000000007735e616/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/3322cc/00000000000000007735e616/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/3322cc/00000000000000007735e616/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova";
+src:url("https://use.typekit.net/af/1be3c2/00000000000000007735e606/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/1be3c2/00000000000000007735e606/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/1be3c2/00000000000000007735e606/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova";
+src:url("https://use.typekit.net/af/40d372/00000000000000007735e607/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff2"),url("https://use.typekit.net/af/40d372/00000000000000007735e607/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff"),url("https://use.typekit.net/af/40d372/00000000000000007735e607/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova";
+src:url("https://use.typekit.net/af/23e139/00000000000000007735e605/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/23e139/00000000000000007735e605/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/23e139/00000000000000007735e605/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova";
+src:url("https://use.typekit.net/af/79862c/00000000000000007735e60e/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("woff2"),url("https://use.typekit.net/af/79862c/00000000000000007735e60e/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("woff"),url("https://use.typekit.net/af/79862c/00000000000000007735e60e/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova-condensed";
+src:url("https://use.typekit.net/af/db26eb/00000000000000007735e615/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff2"),url("https://use.typekit.net/af/db26eb/00000000000000007735e615/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff"),url("https://use.typekit.net/af/db26eb/00000000000000007735e615/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:900;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova-condensed";
+src:url("https://use.typekit.net/af/6f5cf7/00000000000000007735e61e/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3") format("woff2"),url("https://use.typekit.net/af/6f5cf7/00000000000000007735e61e/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3") format("woff"),url("https://use.typekit.net/af/6f5cf7/00000000000000007735e61e/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:900;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova-condensed";
+src:url("https://use.typekit.net/af/15606c/00000000000000007735e60c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/15606c/00000000000000007735e60c/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/15606c/00000000000000007735e60c/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova-condensed";
+src:url("https://use.typekit.net/af/1ea53e/00000000000000007735e61d/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/1ea53e/00000000000000007735e61d/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/1ea53e/00000000000000007735e61d/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova-condensed";
+src:url("https://use.typekit.net/af/2000e8/00000000000000007735e612/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/2000e8/00000000000000007735e612/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/2000e8/00000000000000007735e612/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova-condensed";
+src:url("https://use.typekit.net/af/16abe1/00000000000000007735e621/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff2"),url("https://use.typekit.net/af/16abe1/00000000000000007735e621/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff"),url("https://use.typekit.net/af/16abe1/00000000000000007735e621/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova-condensed";
+src:url("https://use.typekit.net/af/669f97/00000000000000007735e623/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/669f97/00000000000000007735e623/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/669f97/00000000000000007735e623/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova-condensed";
+src:url("https://use.typekit.net/af/4d69d6/00000000000000007735e62c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/4d69d6/00000000000000007735e62c/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/4d69d6/00000000000000007735e62c/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova-condensed";
+src:url("https://use.typekit.net/af/3f0c14/00000000000000007735e626/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff2"),url("https://use.typekit.net/af/3f0c14/00000000000000007735e626/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff"),url("https://use.typekit.net/af/3f0c14/00000000000000007735e626/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:600;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova-condensed";
+src:url("https://use.typekit.net/af/c5e6c7/00000000000000007735e631/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3") format("woff2"),url("https://use.typekit.net/af/c5e6c7/00000000000000007735e631/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3") format("woff"),url("https://use.typekit.net/af/c5e6c7/00000000000000007735e631/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:600;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova-condensed";
+src:url("https://use.typekit.net/af/a86e2c/00000000000000007735e610/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff2"),url("https://use.typekit.net/af/a86e2c/00000000000000007735e610/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff"),url("https://use.typekit.net/af/a86e2c/00000000000000007735e610/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:200;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova-condensed";
+src:url("https://use.typekit.net/af/173dd4/00000000000000007735e61a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i2&v=3") format("woff2"),url("https://use.typekit.net/af/173dd4/00000000000000007735e61a/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i2&v=3") format("woff"),url("https://use.typekit.net/af/173dd4/00000000000000007735e61a/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i2&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:200;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova-condensed";
+src:url("https://use.typekit.net/af/c0fd95/00000000000000007735e62a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff2"),url("https://use.typekit.net/af/c0fd95/00000000000000007735e62a/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff"),url("https://use.typekit.net/af/c0fd95/00000000000000007735e62a/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:800;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova-condensed";
+src:url("https://use.typekit.net/af/4ae8ee/00000000000000007735e630/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i8&v=3") format("woff2"),url("https://use.typekit.net/af/4ae8ee/00000000000000007735e630/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i8&v=3") format("woff"),url("https://use.typekit.net/af/4ae8ee/00000000000000007735e630/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i8&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:800;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova-condensed";
+src:url("https://use.typekit.net/af/7a7bec/00000000000000007735e61c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/7a7bec/00000000000000007735e61c/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/7a7bec/00000000000000007735e61c/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"proxima-nova-condensed";
+src:url("https://use.typekit.net/af/55e0e8/00000000000000007735e625/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("woff2"),url("https://use.typekit.net/af/55e0e8/00000000000000007735e625/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("woff"),url("https://use.typekit.net/af/55e0e8/00000000000000007735e625/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:500;font-stretch:normal;
+}
+
+.tk-proxima-nova { font-family: "proxima-nova",sans-serif; }
+.tk-proxima-nova-condensed { font-family: "proxima-nova-condensed",sans-serif; }
+
+li .choice__qty, li .choice__qty .notranslate {color:#005596 !important; font-weight:400}
+.recaptcha-text {
+    display: none !important;
+}
+form.wufoo {
+    margin-top: 0 !important}
+form li.rightHalf {
+	padding-right:16px;
+}
+form li div{
+	margin:0;
+	padding:0;
+	color:#444;
+	width:97%;
+}
+form li.section {
+ 
+    padding-top: 20px !important;
+   
+}
+h3{
+	padding-top:20px !important;
+}
+.btTxt {
+	color: #235591;
+	/* Green */
+	border: 1px solid #235591;
+	color: white;
+	padding: 17px 60px !important;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px !important;
+	border-radius:5% !important;
+	    background-color: #235591;
+}
+li.buttons{
+	text-align: center;
+	padding-top:30px !important;
+}
+#logo a {
+	background-image: url('https://mcusercontent.com/fef5c320a386e6b8238b3eda6/images/152d3135-4153-55db-5dff-8ed2f19d0b74.jpg') !important;
+	min-height:0;
+	height:100px !important;
+    background-position-x: 5%;
+    background-size: 50%;
+	    max-width: 600px;
+}
+.redesigned-theme-2018 #logo a, .redesigned-theme-2018 .logo a {
+	background-position: 0% 0px !important;
+	background-size: auto !important;
+	margin-bottom: 0 !important;
+}
+* html #logo a {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="https://gallery.mailchimp.com/fef5c320a386e6b8238b3eda6/images/2bf62619-783d-4b20-aae2-ea4fcd50af08.jpg", sizingMethod="crop");
+}
+
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select{
+	background:# url(/images/fieldbg.gif) repeat-x top;
+	border:1px solid Background color ' url(/images/fieldbg.gif) repeat-x top' is not a hex color value.#;
+	border-bottom:1px solid Background color ' url(/images/fieldbg.gif) repeat-x top' is not a hex color value.#;
+	border-right:1px solid Background color ' url(/images/fieldbg.gif) repeat-x top' is not a hex color value.#;
+}
+.wufoo .wufoo-dropdown .wufoo-dropdown-control{
+	 url(/images/fieldbg.gif) repeat-x top;
+	border:1px solid Background color ' url(/images/fieldbg.gif) repeat-x top' is not a hex color value.#;
+	border-bottom:1px solid Background color ' url(/images/fieldbg.gif) repeat-x top' is not a hex color value.#;
+	border-right:1px solid Background color ' url(/images/fieldbg.gif) repeat-x top' is not a hex color value.#;
+}
+.wufoo .wufoo-dropdown .wufoo-dropdown-menu {
+	background:# url(/images/fieldbg.gif) repeat-x top;
+}
+.safari .wufoo select.select{
+	font-size:125% !important;
+}
+.safari .wufoo input.file{
+	background:none;
+	border:none;
+}
+.wufoo li.focused{
+	background-color:transparent !important;
+}
+.wufoo .instruct {
+	background-color:transparent;
+}
+.redesigned-theme-2018 .wufoo .user-instructions small,.redesigned-theme-2018 .wufoo .user-instructions:focus::after,.redesigned-theme-2018 .wufoo .user-instructions:hover::after {
+	background-color:transparent;
+}
+#container{
+	border:0 solid transparent;
+}
+.redesigned-theme-2018#container {
+	border:0 solid transparent;
+}
+.wufoo .info,.wufoo .paging-context{
+	border-bottom:1px solid #dedede;
+}
+.wufoo .section h3,.wufoo .captcha,#payment .paging-context{
+	border-top:1px solid #dedede;
+}
+.redesigned-theme-2018 .wufoo .info,.redesigned-theme-2018 .wufoo .paging-context {
+	border-bottom:0 solid transparent;
+}
+.redesigned-theme-2018 .wufoo .section h3,.redesigned-theme-2018 .wufoo .captcha,.redesigned-theme-2018 #payment .paging-context {
+	border-top:1px solid #dedede;
+}
+.wufoo .instruct{
+	border:0 solid #339900;
+}
+.redesigned-theme-2018 .wufoo .user-instructions small {
+	border:0 solid #339900;
+}
+.redesigned-theme-2018 .wufoo .floatInstructionRight:hover::before,.redesigned-theme-2018 .wufoo .floatInstructionRight:focus::before,.redesigned-theme-2018 .wufoo .floatInstructionRight:hover::after,.redesigned-theme-2018 .wufoo .floatInstructionRight:focus::after {
+	border-left: 0 solid #339900;
+	border-bottom: 0 solid #339900;
+}
+.redesigned-theme-2018 .wufoo .floatInstructionLeft:hover::before,.redesigned-theme-2018 .wufoo .floatInstructionLeft:focus::before,.redesigned-theme-2018 .wufoo .floatInstructionLeft:hover::after,.redesigned-theme-2018 .wufoo .floatInstructionLeft:focus::after {
+	border-right: 0 solid #339900;
+	border-top: 0 solid #339900;
+}
+.fixed .info{
+	border-bottom:none;
+}
+.wufoo li.section.scrollText{
+	border-color:#dedede;
+}
+.wufoo .info h2 {
+	font-family:'proxima-nova-condensed';
+	font-style:normal;
+	font-weight:800;
+	color:#505151 !important;
+        font-size: 240% !important;
+    line-height: 120% !important;
+}
+.redesigned-theme-2018 .wufoo .info h2 * {
+	font-family: 'proxima-nova-condensed';
+}
+.wufoo .info div {
+	font-size:125% !important;
+	font-family:'proxima-nova';
+	font-style:normal;
+	font-weight:400;
+	color:#505151 !important;
+}
+.redesigned-theme-2018 .wufoo .info div * {
+	font-family: 'proxima-nova';
+}
+.wufoo .section h3 {
+	font-size:180% !important;
+	font-family:'proxima-nova-condensed';
+	font-style:normal;
+	font-weight:800;
+	color:#505151 !important;
+}
+.redesigned-theme-2018 .wufoo .section h3 * {
+	font-family: 'proxima-nova-condensed';
+}
+.wufoo .section div {
+	font-size:125% !important;
+	font-family:'proxima-nova';
+	font-style:normal;
+	font-weight:400;
+	color:#505151 !important;
+}
+.redesigned-theme-2018 .wufoo .section div * {
+	font-family: 'proxima-nova';
+}
+.wufoo label.desc, .wufoo legend.desc, .likert caption {
+	font-size:125% !important;
+	font-family:'proxima-nova';
+	font-style:normal;
+	font-weight:500;
+	color:#505151 !important;
+}
+.redesigned-theme-2018 .wufoo li.paging-context b *,.redesigned-theme-2018 .wufoo li .wufoo-dropdown *,.redesigned-theme-2018 .wufoo label.choice *,.redesigned-theme-2018 .wufoo label.desc *,.redesigned-theme-2018 .wufoo legend.desc *,.redesigned-theme-2018 .likert thead td *,.redesigned-theme-2018 .likert tbody label *,.redesigned-theme-2018 .likert caption * {
+	font-family: 'proxima-nova';
+}
+.wufoo label.choice{
+	font-size:125% !important;
+	font-family:'proxima-nova';
+	font-style:normal;
+	font-weight:400;
+	color:#505151 !important;
+}
+.redesigned-theme-2018 .wufoo label.desc,.redesigned-theme-2018 .wufoo legend.desc,.redesigned-theme-2018 .wufoo li span,.redesigned-theme-2018 .wufoo li span label,.redesigned-theme-2018 .wufoo li div span.choice__text,.redesigned-theme-2018 .wufoo ul li span.symbol,.redesigned-theme-2018 li div span.choice__qty,.redesigned-theme-2018 li div span.choice__qty span,.redesigned-theme-2018 .wufoo li .wufoo-dropdown-menu,.redesigned-theme-2018 .wufoo li.focused span {
+	color: #505151 !important;
+}
+.wufoo input.text,.wufoo textarea.textarea,.wufoo input.file,.wufoo select.select,.wufoo li .wufoo-dropdown span{
+	font-style:normal;
+	font-weight:400;
+	color:#505151 !important;
+	font-size:125% !important;
+	padding:5px !important;
+}
+{
+	* Custom Fonts Break Dropdown Selection in IE *
+}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file{
+	font-family:'proxima-nova';
+}
+.redesigned-theme-2018 .wufoo input.text,.redesigned-theme-2018 .wufoo textarea.textarea,.redesigned-theme-2018 .wufoo input.file {
+	font-family: 'proxima-nova';
+}
+.wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label{
+	font-family:'proxima-nova';
+	color:#505151;
+}
+.safari .wufoo input.file{
+	font-size:125%;
+	font-family:'proxima-nova';
+	color:#505151;
+}
+.wufoo .instruct small, .redesigned-theme-2018 .wufoo label.desc .user-instructions small{
+	font-size:160%;
+	font-family:'proxima-nova';
+	font-style:normal;
+	font-weight:400;
+	color:#444444;
+}
+.redesigned-theme-2018 .wufoo label.desc .user-instructions,.redesigned-theme-2018 .wufoo legend.desc .user-instructions {
+	font-size: 15px !important;
+}
+.redesigned-theme-2018 .wufoo label.desc .user-instructions small,.redesigned-theme-2018 .wufoo legend.desc .user-instructions small {
+	font-size: 160% !important;
+	color: #444444 !important;
+	font-style:normal !important;
+	font-weight: 300 !important;
+	line-height: normal;
+}
+.redesigned-theme-2018 .wufoo label.desc .user-instructions small,.redesigned-theme-2018 .wufoo legend.desc .user-instructions small {
+	color: #6b787f !important;
+}
+.altInstruct small, li.leftHalf small, li.rightHalf small,li.leftThird small, li.middleThird small, li.rightThird small,.iphone small{
+	color:#444444 !important;
+}
+.wufoo input.btTxt{
+}
+.confirm h2{
+	font-family:'proxima-nova';
+	color:#505151;
+}
+a.powertiny b, a.powertiny em{
+	color:#1a1a1a !important;
+}
+.embed a.powertiny b, .embed a.powertiny em{
+	color:#1a1a1a !important;
+}
+.pgStyle1 var, .pgStyle2 var, .pgStyle2 em, .page1 .pgStyle2 var, .pgStyle1 b, .wufoo .buttons .marker{
+	font-family:'proxima-nova';
+	color:#505151;
+}
+.pgStyle1 var, .pgStyle2 td{
+	border:1px solid #737474;
+}
+.pgStyle1 .done var{
+	background:#e6e6e6;
+	border:1px solid #e6e6e6;
+}
+.pgStyle1 .selected var{
+	border:1px solid #505151;
+}
+.buttons button, .buttons button:hover{
+	color:#000000;
+}
+.likert table{
+	background-color:transparent;
+}
+.likert thead td, .likert thead th{
+	background-color:#e6e6e6;
+}
+.likert tbody tr.alt td, .likert tbody tr.alt th{
+	background-color:#ebebeb;
+}
+.likert table, .likert th, .likert td{
+	border-color:#dedede;
+}
+.likert td{
+	border-left:1px solid #cccccc;
+}
+.likert caption, .likert thead td, .likert tbody th label{
+	color:#505151;
+	font-family:'proxima-nova';
+}
+.redesigned-theme-2018 .likert thead td,.redesigned-theme-2018 .likert thead th,.redesigned-theme-2018 .likert tbody th label {
+	color:#505151 !important;
+}
+.likert tbody td label{
+	color:#626363;
+	font-family:'proxima-nova';
+}
+.likert thead td, .likert tbody tr.alt th label, .likert tbody tr.alt td label{
+	color:#000000;
+}
+.likert caption, .likert tbody th label{
+	font-size:125%;
+}
+.likert tbody tr:hover td, .likert tbody tr:hover th, .likert tbody tr:hover label{
+	background-color:transparent;
+	color:#000000;
+}
+.likert tbody tr:hover td{
+	border-left:1px solid #cccccc;
+}
+.redesigned-theme-2018 .likert tbody tr:hover label, .redesigned-theme-2018 .likert tbody tr:hover td, .redesigned-theme-2018 .likert tbody tr:hover th {
+	color: #505151;
+}
+.wufoo #lola tbody td{
+	border-bottom:1px solid #cccccc;
+	border-bottom:1px solid rgba(80,81,81,0.3);
+}
+.wufoo #lola{
+	font-family:'proxima-nova';
+	color:#505151;background-color:#f8f8f8 !important;
+}
+.wufoo #lola tfoot th{
+	color:#737474;
+}
+.wufoo .wfo_graph h3{
+	font-size:125%;
+	font-family:'proxima-nova';
+	color:#505151;
+}
+.wfo_txt, .wfo_graph h4{
+	color:#505151;
+}
+.wufoo .footer h4{
+	color:#505151;
+}
+.wufoo .footer span{
+	color:#505151;
+}
+.wfo_number{
+	background-color:#ebebeb;
+	border-color:#dedede;
+}
+.wfo_number strong, .wfo_number em{
+	color:#000000;
+}
+#widget, #widget body{
+	background:transparent;
+}
+.fcNav a.show{
+	background-color:transparent;
+	border-color:#cccccc;
+}
+.fc table{
+	border-left:1px solid #dedede;
+}
+.fc thead th, .fc .more th{
+	background-color:#dedede !important;
+	border-right:1px solid #cccccc !important;
+}
+.fc tbody td, .fc tbody th, .fc tfoot th, .fc tfoot td{
+	background-color:transparent;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #dedede;
+}
+.fc tbody tr.alt td, .fc tbody tr.alt th, .fc tbody td.alt{
+	background-color:#ebebeb;
+}
+.fc caption, .fcNav, .fcNav a{
+	color:#505151;
+}
+.fc tfoot,.fc thead th,.fc tbody th div,.fc tbody td.count, .fc .cards tbody td a, .fc td.percent var,.fc .timestamp span{
+	color:#000000;
+}
+.fc .indent .count{
+	color:#575858;
+}
+.fc .cards tbody td a span{
+	color:#858686;
+}
+.fc tbody tr:hover td, .fc tbody tr:hover th,.fc tfoot tr:hover td, .fc tfoot tr:hover th{
+	background-color:transparent;
+}
+.fc tbody tr:hover th div, .fc tbody tr:hover td, .fc tbody tr:hover var,.fc tfoot tr:hover th div, .fc tfoot tr:hover td, .fc tfoot tr:hover var{
+	color:#000000;
+}
+.invoice thead th,.invoice tbody th, .invoice tbody td,.invoice tfoot th,.invoice .total,.invoice tfoot .last th, .invoice tfoot .last td,.invoice tfoot th, .invoice tfoot td{
+	border-color:#dedede;
+}
+.invoice thead th, .wufoo .checkNotice{
+	background:#ebebeb;
+}
+.invoice th, .invoice td{
+	color:#000000;
+}
+#ppSection, #ccSection{
+	border-bottom:1px solid #dedede;
+}
+#shipSection, #invoiceSection{
+	border-top:1px solid #dedede;
+}
+@media only screen and (max-width: 480px) {
+	html{
+		background-color:transparent;
+	}
+	a.powertiny b, a.powertin em{
+		color:#1a1a1a !important;
+	}
+}
